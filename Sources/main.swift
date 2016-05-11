@@ -9,7 +9,7 @@
 import Foundation
 import Vapor
 
-print("SwiftServerIO -- starting")
+print("SwiftServerDemo -- starting")
 
 Route.get("hello") { _ in
 	return ["Hello" : "World"]
